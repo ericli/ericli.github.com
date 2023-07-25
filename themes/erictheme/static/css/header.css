@@ -1,0 +1,26 @@
+nav {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+  }
+  
+nav a {
+display: block;
+padding: 10px;
+text-decoration: none;
+}
+
+nav a:hover {
+background-color: #ccc;
+}
+
+.nav-item {
+float: left;
+margin-left: auto;
+}
+
+.nav-item + .nav-item {
+margin-left: 20px;
+}
